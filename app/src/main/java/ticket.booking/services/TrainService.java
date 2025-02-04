@@ -13,7 +13,8 @@ import java.util.stream.Collectors;
 public class TrainService {
     private List<Train> trainList;
     private final ObjectMapper objectMapper = new ObjectMapper();
-    private static final String TRAIN_PATH = "C:/Users/dines/Desktop/IRCTC/app/src/main/java/ticket.booking/localDB/trains.json";
+    // Replace it with Relative Path of Json file if not wokring
+    private static final String TRAIN_PATH = ".//localDB/trains.json";
     private void loadTrainListFromFile() throws IOException {
         trainList = objectMapper.readValue(new File(TRAIN_PATH), new TypeReference<List<Train>>() {});
     }
