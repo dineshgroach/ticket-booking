@@ -6,7 +6,7 @@ A ticket Booking Platform that run's on CLI build using Java
 Clone the Project in your Local Machine:
 Build the applcition using the Below file :
 ```bash
-$ .\\IRCTC\app\src\main\java\ticket.booking\App.java
+.\\IRCTC\app\src\main\java\ticket.booking\App.java
 ```
 
 Dependencies Required :
