@@ -17,7 +17,8 @@ public class UserBookingService {
     private User user;
     private List<User> userList;
     private final ObjectMapper objectMapper = new ObjectMapper();
-    private static final String USERS_PATH = "C:/Users/dines/Desktop/IRCTC/app/src/main/java/ticket.booking/localDB/users.json";
+     // Replace it with Relative Path of Json file if not wokring
+    private static final String USERS_PATH = ".//localDB/users.json";
     public UserBookingService() throws IOException {
         loadUserListFromFile();
     }
